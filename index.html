@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For My Dear Lily ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="background-hearts" id="backgroundHearts"></div>
+
+  <!-- PAGE 1 -->
+  <section class="page active" id="page1">
+    <div class="intro-card">
+      <div class="intro-flower">🌸</div>
+      <h1>There's Something I Want to Tell You...</h1>
+      <p>A little message from my heart, just for you.</p>
+      <button onclick="goToPage(2)">Listen to Me 💗</button>
+    </div>
+  </section>
+
+  <!-- PAGE 2 -->
+  <section class="page" id="page2">
+    <div class="page-heading">
+      <h1>Our Little Love Tree 🌳</h1>
+      <p>Every heart carries a little message for you...</p>
+    </div>
+
+    <div class="tree-area">
+      <div class="tree-crown" id="treeCrown"></div>
+      <div class="tree-trunk"></div>
+      <div class="tree-ground"></div>
+    </div>
+
+    <button class="next-button" onclick="goToPage(3)">
+      Continue 💕
+    </button>
+  </section>
+
+  <!-- PAGE 3 -->
+  <section class="page" id="page3">
+    <div class="page-heading">
+      <h1>A Garden of Little Feelings 🌷</h1>
+      <p>Tap the flowers and discover their little messages.</p>
+    </div>
+
+    <div class="flower-garden" id="flowerGarden"></div>
+    <div class="flower-message" id="flowerMessage">
+      Tap a flower to see its message 💗
+    </div>
+
+    <button class="next-button" onclick="goToPage(4)">
+      One Last Thing 🧸
+    </button>
+  </section>
+
+  <!-- PAGE 4 -->
+  <section class="page" id="page4">
+    <div class="page-heading">
+      <h1>A Little Something for You 🧸</h1>
+      <p>This teddy has something to give you...</p>
+    </div>
+
+    <div class="teddy-container">
+      <div class="teddy">
+        <div class="ear left-ear"></div>
+        <div class="ear right-ear"></div>
+
+        <div class="teddy-head">
+          <div class="eye left-eye"></div>
+          <div class="eye right-eye"></div>
+          <div class="snout">
+            <div class="nose"></div>
+            <div class="mouth"></div>
+          </div>
+          <div class="cheek left-cheek"></div>
+          <div class="cheek right-cheek"></div>
+        </div>
+
+        <div class="teddy-body">
+          <div class="tummy"></div>
+        </div>
+
+        <div class="arm left-arm"></div>
+        <div class="arm right-arm"></div>
+
+        <button class="teddy-heart" onclick="openLetter()">
+          ❤️
+        </button>
+
+        <div class="leg left-leg"></div>
+        <div class="leg right-leg"></div>
+      </div>
+    </div>
+
+    <p class="teddy-instruction">Tap the little heart ❤️</p>
+  </section>
+
+  <!-- FINAL LETTER -->
+  <div class="letter-overlay" id="letterOverlay">
+    <div class="letter-box">
+      <button class="close-letter" onclick="closeLetter()">×</button>
+
+      <div class="letter-content">
+        <div class="letter-top">🌸 🧸 🌸</div>
+
+        <h1>For You, My Dear Lily ❤️</h1>
+
+        <p>Hey Lily! 🌸</p>
+
+        <p>First of all, I'm really sorry.</p>
+
+        <p>
+          I know I have made mistakes, and maybe some of my words or actions
+          hurt you or made you uncomfortable. I never wanted that to happen.
+          I may not have handled everything the right way, and for that,
+          I'm genuinely sorry.
+        </p>
+
+        <p>
+          You became someone special to me. The little conversations,
+          random chats, silly moments and even your smallest messages
+          meant a lot to me. Maybe I never expressed it properly,
+          but I truly value those moments.
+        </p>
+
+        <p>
+          I understand that you see me as a friend, and I respect that.
+          I also respect your relationship. I don't want my feelings
+          or anything from my side to create problems in your life.
+          I'm not expecting anything from you.
+        </p>
+
+        <p>
+          Honestly, I miss talking to you. I miss our random conversations,
+          sharing little things and asking how your day went.
+        </p>
+
+        <p>
+          I don't want to say goodbye, Lily. I just want us to find
+          our way back to a comfortable friendship.
+        </p>
+
+        <p>
+          I'd love for us to talk, laugh, share random things and make
+          more good memories as friends. And if you ever have a bad day
+          or need someone to talk to, I'll be happy to listen,
+          whenever you're comfortable.
+        </p>
+
+        <p>
+          Please take care of yourself, keep smiling and never forget
+          how precious your happiness is. ❤️
+        </p>
+
+        <p>
+          Thank you for all the little moments, conversations,
+          smiles and memories. They genuinely mean a lot to me.
+        </p>
+
+        <p>
+          If you're comfortable with it, can we please start talking again?
+          Not because of any pressure, not because you feel sorry for me,
+          but simply because we both want to keep a genuine friendship.
+        </p>
+
+        <p>
+          You don't need to give me a big reply. Even a small conversation
+          would mean a lot.
+        </p>
+
+        <p>
+          And Lily, if after reading everything you still feel that you
+          don't want to talk to me anymore, I'll understand. I promise
+          I won't force you, repeatedly ask you, or make you feel
+          uncomfortable. Whatever you decide, I'll respect your decision
+          wholeheartedly. Your comfort and happiness matter to me,
+          and I never want you to feel pressured because of me. ❤️
+        </p>
+
+        <p>
+          I'm sorry for my mistakes. Thank you for everything.
+          And I hope we can smile and talk again.
+        </p>
+
+        <p>
+          Take care, Lily. Keep smiling and keep shining. 🌷
+        </p>
+
+        <div class="letter-signature">
+          With lots of care,<br>
+          <strong>Your Peppa Pig 🐷❤️</strong>
+        </div>
+
+        <div class="teddy-ps">
+          <p>
+            P.S. This little teddy is giving you a heart because I couldn't
+            find a better way to send you a little happiness. Keep it,
+            and whenever you see it, remember that someone genuinely
+            wishes the best for you. 🌷❤️
+          </p>
+        </div>
+
+        <div class="letter-bottom">Made with care ❤️</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
